@@ -1,0 +1,36 @@
+.achievements {
+  display: flex;
+  min-height: 250px;
+
+  background-color: #34547A;
+}
+
+.cart {
+  display: flex;
+  max-width: 141px;
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.cart a {
+  position: relative;
+
+  display: block;
+  padding-top: 25px;
+  padding-left: 60px;
+}
+
+.cart a::before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 0;
+
+  width: 50px;
+  height: 50px;
+
+  background-image: url("/img/project-icon.png");
+  background-repeat: no-repeat;
+}

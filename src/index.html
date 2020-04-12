@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portfolio</title>
+    <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
-  <div class="sprite">
+<div class="sprite">
     <include src="build/img/sprite.svg"></include>
-  </div>
-  
+</div>
+
+<div class="container">
+    <header class="header">
+        <nav class="navigation">
+            <div class="logo">
+                <a>
+                    <img src="img/WD.png" width="96" height="60" alt="Логотип WD">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Об авторе</a></li>
+                <li><a href="#">Работы</a></li>
+                <li><a href="#">Процесс</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="visually-hidden">Разработка сайтов</h1>
+        <section class="services">
+            <h2 class="visually-hidden">Услуги</h2>
+            <div class="col-left">
+                <div>
+                    <img src="img/display-with-code.jpg" width="357" height="233" alt="Иллюстрация монитора с кодом">
+                </div>
+            </div>
+            <div class="col-right">
+                <b>Дизайн и верстка</b>
+                <p>
+                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>
+                    вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                </p>
+                <a class="button" href="#">Написать мне</a>
+            </div>
+        </section>
+        <section class="about-me">
+            <h3>Обо мне</h3>
+            <p>
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+            </p>
+        </section>
+        <section class="achievements">
+            <div class="cart">
+                <a href="#">Корзина</a>
+            </div>
+        </section>
+    </main>
+</div> <!-- Здесь закрывается .container -->
 </body>
 </html>
