@@ -4,7 +4,8 @@
   width: 100%;
   min-height: 528px;
   margin: 0;
-  padding: 0;
+  padding-left: 510px;
+  padding-right: 382px;
 
   border-bottom: 2px solid #eeeeee;
 
@@ -14,15 +15,14 @@
 .col-left {
   width: 360px;
   margin: 0;
-  padding: 0;
-  padding-top: 41px;
+  margin-right: 131px;
+  padding-top: 21px;
 }
 
 .col-right {
   width: 541px;
   margin: 0;
   padding: 0;
-  padding-top: 75px;
 }
 
 .col-right b {

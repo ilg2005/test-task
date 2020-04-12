@@ -18,17 +18,17 @@ a {
 .container {
   width: 1920px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .header {
-  padding-top: 49px;
-
+  padding-top: 60px;
   background-color: #EEEFF1;
 }
 
 .navigation {
   display: flex;
+  padding-left: 425px;
+  padding-bottom: 140px;
   align-items: center;
 
   letter-spacing: 0.1em;
@@ -65,7 +65,7 @@ a {
 .logo {
   width: 160px;
   height: 65px;
-  margin-right: 202px;
+  margin-right: 398px;
 
   font-family: Revalia;
   font-style: normal;
