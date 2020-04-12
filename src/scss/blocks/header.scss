@@ -28,13 +28,10 @@ a {
 }
 
 .navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   align-items: center;
 
-  font-weight: 500;
-  line-height: 30px;
+  letter-spacing: 0.1em;
   color: #000000;
   text-transform: uppercase;
 }
@@ -56,7 +53,8 @@ a {
 }
 
 .navigation-current a {
-  border-bottom: 2px solid #fb565a;
+  font-weight: 500;
+  color: #34547A;
 }
 
 .navigation-current a:hover,
