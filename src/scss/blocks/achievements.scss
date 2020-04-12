@@ -1,11 +1,10 @@
 .achievements {
   display: flex;
-  min-height: 250px;
 
   background-color: #34547A;
 }
 
-.cart {
+.achievements-content {
   display: flex;
   max-width: 141px;
   margin: 0;
@@ -14,18 +13,18 @@
   padding-top: 10px;
 }
 
-.cart a {
+.achievements-content a {
   position: relative;
 
-  display: block;
-  padding-top: 25px;
+  padding: 100px 0;
   padding-left: 60px;
+  color: #ffffff;
 }
 
-.cart a::before {
+.achievements-content a::before {
   content: "";
   position: absolute;
-  top: 14px;
+  top: 101px;
   left: 0;
 
   width: 50px;
@@ -33,4 +32,10 @@
 
   background-image: url("/img/project-icon.png");
   background-repeat: no-repeat;
+}
+
+.quantity {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
 }
