@@ -2,33 +2,27 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  min-height: 528px;
   margin: 0;
-  padding-left: 510px;
-  padding-right: 382px;
-
-  border-bottom: 2px solid #eeeeee;
+  padding-top: 140px;
+  padding-left: 520px;
+  padding-bottom: 143px;
 
   background-color: #EEEFF1;
 }
 
 .col-left {
-  width: 360px;
-  margin: 0;
-  margin-right: 131px;
-  padding-top: 21px;
+  margin-top: 21px;
 }
 
 .col-right {
   width: 541px;
-  margin: 0;
-  padding: 0;
+  margin-right: 372px;
 }
 
 .col-right b {
   display: block;
   margin: 0;
-  margin-bottom: 33px;
+  margin-bottom: 60px;
   padding: 0;
 
   font-weight: 500;
@@ -39,6 +33,6 @@
 
 .col-right p {
   margin: 0;
-  margin-bottom: 39px;
+  margin-bottom: 60px;
   padding: 0;
 }
